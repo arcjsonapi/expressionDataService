@@ -5,19 +5,19 @@
 	{ 
            "name" : "a",
            "expressionType" : "DIRECT",
-           "expression: "10",                           // result will be 10
+           "expression: "10",
            "dependencies :[ ]       
         }, {
            "name" : "c",
            "expressionType" : "JS_EXPRESSION",
-           "expression" : "10 + ${b}",                  // result will be "10----+----10####+########10"
+           "expression" : "10 + ${b}",
            "dependencies" : ["b"]
         }, {
            "name" : "b",
            "expressionType" : "FORMULA_EXPRESSION",
-           "expression" : "${a} +  10",                 // result will be "10####+########10"
+           "expression" : "${a} +  10",
            "dependencies" : ["a"]
-        }, 
+        }
     ]
   },
   {
@@ -26,17 +26,17 @@
 	{ 
            "name" : "a",
            "expressionType" : "DIRECT",
-           "expression: "20",                           // result will be 20
+           "expression: "20",
            "dependencies :[ ]
         }, {
            "name" : "b",
            "expressionType" : "FORMULA_EXPRESSION",
-           "expression" : "${a} +  10",                 // result will be "20####+########10"
+           "expression" : "${a} +  10",
            "dependencies" : ["a"]
         }, {
            "name" : "c",
            "expressionType" : "JS_EXPRESSION",
-           "expression" : "10 + ${b}",     // result will be "10----+----20####+########10"
+           "expression" : "10 + ${b}",
            "dependencies" : ["b"]
         }
     ]
