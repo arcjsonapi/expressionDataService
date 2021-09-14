@@ -1,0 +1,22 @@
+[
+  {
+    "groupName"  :  "Group1",
+    "expressions":   []
+  },
+  {
+    "groupName"  :  "Group2",
+    "expressions":   [    
+	{ 
+           "name" : "a",
+           "expressionType" : "DIRECT",
+           "expression: "20",
+           "dependencies :[ ]
+        }, {
+           "name" : "b",
+           "expressionType" : "FORMULA_EXPRESSION",
+           "expression" : "${a} +  10",
+           "dependencies" : ["a"]
+        }
+    ]
+  }
+]
