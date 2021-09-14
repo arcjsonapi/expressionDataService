@@ -7,12 +7,8 @@
            "expressionType" : "DIRECT",
            "expression: "10",
            "dependencies :[ ]       
-        }, {
-           "name" : "c",
-           "expressionType" : "JS_EXPRESSION",
-           "expression" : "10 + ${b}",
-           "dependencies" : ["b"]
-        }, {
+        },
+	{
            "name" : "b",
            "expressionType" : "FORMULA_EXPRESSION",
            "expression" : "${a} +  10",
@@ -33,11 +29,6 @@
            "expressionType" : "FORMULA_EXPRESSION",
            "expression" : "${a} +  10",
            "dependencies" : ["a"]
-        }, {
-           "name" : "c",
-           "expressionType" : "JS_EXPRESSION",
-           "expression" : "10 + ${b}",
-           "dependencies" : ["b"]
         }
     ]
   }
