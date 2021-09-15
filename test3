@@ -14,7 +14,7 @@
         }, {
            "name" : "b",
            "expressionType" : "RS_EXPRESSION",
-           "expression" : "${a} +  10",
+           "expression" : "${a} + 10",
            "dependencies" : ["a"]
         }
     ]
