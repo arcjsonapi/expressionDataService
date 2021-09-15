@@ -13,7 +13,7 @@
            "dependencies :[ ]
         }, {
            "name" : "b",
-           "expressionType" : "FORMULA_EXPRESSION",
+           "expressionType" : "RS_EXPRESSION",
            "expression" : "${a} +  10",
            "dependencies" : ["a"]
         }
