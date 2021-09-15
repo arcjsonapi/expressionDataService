@@ -9,8 +9,8 @@
 	{ 
            "name" : "a",
            "expressionType" : "DIRECT",
-           "expression: "20",
-           "dependencies :[ ]
+           "expression": "20",
+           "dependencies" :[ ]
         }, {
            "name" : "b",
            "expressionType" : "RS_EXPRESSION",
