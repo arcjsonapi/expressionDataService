@@ -29,7 +29,7 @@
            "name" : "a",
            "expressionType" : "DIRECT",
            "expression": "20",
-           "dependencies :[ ]
+           "dependencies" :[ ]
         }, {
            "name" : "b",
            "expressionType" : "FORMULA_EXPRESSION",
