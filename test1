@@ -14,7 +14,7 @@
            "dependencies" : ["a"]
         }, {
            "name" : "c",
-           "expressionType" : "DOLLAR_EXPRESSION",  // result will be "(10 + 10) $"
+           "expressionType" : "DOLLAR_EXPRESSION",
            "expression" : "${a} + 10",
            "dependencies" : ["a"]
         }
